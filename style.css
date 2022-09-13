@@ -1,0 +1,122 @@
+
+body{
+    background-image: url("advice-sage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 110% 110%;
+}
+    html{
+    height: 100vh;
+
+}
+.overlay-text {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+.overlay-text.visible {
+    display: flex;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    width: 550px;
+    background-color:hsl(240,100%,70%, .8);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 1% 0; */
+    box-shadow: 30px 50px 1000px;
+}
+.advice{
+    font-size: 2.5rem;
+}
+.adviceAdvice{
+    font-size: 2rem;
+    text-align: center;
+}
+.adviceId{
+    color: hsla(60, 100%, 66%, 1);
+}
+#generator{
+    border: none;
+    background-color: hsl(240, 100%, 66%);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 35px;
+    z-index: 100;
+}
+
+#generator:hover{
+    box-shadow: 0 5px 60px hsla(60, 100%, 66%, 1);
+    cursor: pointer;
+}
+.generator{
+    width: 45px;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-size: 90% 90%;
+    }
+    .card{
+        width: 300px;
+        background-color:hsl(240,100%,70%, .8);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 1% 0; */
+        box-shadow: 30px 50px 1000px;
+    }
+    .advice{
+        font-size: 1.5rem;
+    }
+    .adviceAdvice{
+        font-size: 1rem;
+        text-align: center;
+    }
+    #generator{
+        border: none;
+        background-color: hsl(240, 100%, 66%);
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 16px;
+        z-index: 100;
+    }
+    #generator:hover{
+        box-shadow: 0 5px 25px hsla(60, 100%, 66%, 1);
+        cursor: pointer;
+    }
+    .generator{
+        width: 20px;
+        position: relative;
+    }
+  }
