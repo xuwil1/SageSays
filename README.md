@@ -27,8 +27,7 @@ Users should be able to:
 ### Screenshot
 Mobile page
 
-![Mobile page](/img/mobilepage.png)
-
+![Mobile page](/img/mobilepage.png)  
 Web page
 
 ![Web page](/img/webpage.png)
