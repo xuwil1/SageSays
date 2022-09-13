@@ -25,8 +25,9 @@ Users should be able to:
 - Generate advice upon clicking the button
 
 ### Screenshot
-
+Mobile page
 ![Mobile page](/img/mobilepage.png)
+Web page
 ![Web page](/img/webpage.png)
 
 ### Links
