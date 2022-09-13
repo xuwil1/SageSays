@@ -28,6 +28,7 @@ Users should be able to:
 Mobile page
 
 ![Mobile page](/img/mobilepage.png)
+
 Web page
 
 ![Web page](/img/webpage.png)
